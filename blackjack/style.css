@@ -1,0 +1,38 @@
+body{ 
+margin: 0;    
+
+}    
+h1{
+    color: gold;
+}
+p{}
+.main-container{
+    background-color: rgb(55, 34, 74);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size:larger ;
+    color: white;
+}
+.start-btn{
+    background-color: rgb(253, 253, 42);
+    color:rgb(41, 32, 218);
+    font-size: larger; 
+    font-weight: bolder;
+    border: none;
+    border-radius: 2PX;
+    margin: 4px;
+}
+.start-btn:hover{
+color: rgb(239, 4, 4);
+background-color: rgb(255, 255, 255);
+}
+.btn-container{
+    display: flex;
+}
